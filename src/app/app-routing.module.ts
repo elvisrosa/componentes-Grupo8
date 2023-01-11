@@ -18,6 +18,10 @@ const routes: Routes = [
   {
     path: 'action-shet',
     loadChildren: () => import('./pages/action-shet/action-shet.module').then( m => m.ActionShetPageModule)
+  },
+  {
+    path: 'leccion',
+    loadChildren: () => import('./pages/leccion/leccion.module').then( m => m.LeccionPageModule)
   }
   
 ];
